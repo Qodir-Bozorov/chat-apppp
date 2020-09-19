@@ -125,9 +125,12 @@ body {
 .msg {
   min-width: 220px;
   max-width: 350px;
+  display: block;
+}
+
+.msg > * {
   padding: 10px;
   margin: 15px;
-  display: block;
 }
 
 .author {
