@@ -125,16 +125,13 @@ body {
 .msg {
   min-width: 220px;
   max-width: 350px;
-  
+  padding: 10px;
+  margin: 15px;
   display: block;
 }
 
 .author {
-  color: red;
-}
-
-.author:focus {
-  outline: ;
+  color: #168ACD;
 }
 
 .msg>* {
@@ -143,16 +140,12 @@ body {
 }
 
 .msg-you {
-  padding: 10px;
-  margin: 15px;
   margin-right: auto;
   border-radius: 0 10px 10px 10px;
   background-color: #FFF;
 }
 
 .msg-me {
-  padding: 10px;
-  margin: 15px;
   border-radius: 10px 10px 0 10px;
   margin-left: auto;
   background-color: #EFFDDE;
