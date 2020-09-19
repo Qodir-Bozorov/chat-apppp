@@ -19,7 +19,7 @@ rec.onresult = function (event) {
     const newMsg = document.createElement('LI')
     newMsg.textContent = buyruq
     msgs.appendChild(newMsg)
-    newMsg.classList.add("msg-me")
+    newMsg.classList.add("msg me")
 
     if (newMsg.textContent == "salom" || newMsg.textContent == "Salom") {
       setTimeout(() => {
