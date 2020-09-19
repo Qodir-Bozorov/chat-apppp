@@ -123,10 +123,7 @@ body {
 }
 
 .msg {
-  min-width: 220px;
-  max-width: 350px;
   
-  display: block;
 }
 
 .author {
@@ -143,6 +140,9 @@ body {
 }
 
 .msg-you {
+  min-width: 220px;
+  max-width: 350px;  
+  display: block;
   padding: 10px;
   margin: 15px;
   margin-right: auto;
@@ -151,6 +151,9 @@ body {
 }
 
 .msg-me {
+  min-width: 220px;
+  max-width: 350px;  
+  display: block;
   border-radius: 10px 10px 0 10px;
   margin-left: auto;
   background-color: #EFFDDE;
