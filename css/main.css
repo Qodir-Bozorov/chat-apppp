@@ -125,8 +125,7 @@ body {
 .msg {
   min-width: 220px;
   max-width: 350px;
-  padding: 10px;
-  margin: 15px;
+  
   display: block;
 }
 
@@ -144,6 +143,8 @@ body {
 }
 
 .msg-you {
+  padding: 10px;
+  margin: 15px;
   margin-right: auto;
   border-radius: 0 10px 10px 10px;
   background-color: #FFF;
@@ -153,6 +154,8 @@ body {
   border-radius: 10px 10px 0 10px;
   margin-left: auto;
   background-color: #EFFDDE;
+  padding: 10px;
+  margin: 15px;
 }
 
 .answers-list {

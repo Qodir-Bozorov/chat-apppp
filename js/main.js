@@ -19,13 +19,13 @@ rec.onresult = function (event) {
     const newMsg = document.createElement('LI')
     newMsg.textContent = buyruq
     msgs.appendChild(newMsg)
-    newMsg.classList.add("msg ms-me")
+    newMsg.classList.add("msg-me")
 
     if (newMsg.textContent == "salom" || newMsg.textContent == "Salom") {
       setTimeout(() => {
         const newMsgleft = document.createElement("li")
         newMsgleft.textContent = "salom, qalesan?"
-        newMsgleft.classList.add('you')
+        newMsgleft.classList.add('msg-you')
         msgs.appendChild(newMsgleft)
       }, 1000)
     }
