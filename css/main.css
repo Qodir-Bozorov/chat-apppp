@@ -130,7 +130,7 @@ body {
 }
 
 .author {
-  color: #168ACD;
+  color: red;
 }
 
 .author:focus {
