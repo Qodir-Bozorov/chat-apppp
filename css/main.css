@@ -10,7 +10,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: '####', 'Open sans', sans-serif;
+  font-family: "Samsung Sans" ,'Open sans', sans-serif;
+  line-height: 18px;
 }
 
 .visually-hidden {
@@ -123,14 +124,11 @@ body {
 }
 
 .msg {
-  min-width: 220px;
+  min-width: 80px;
   max-width: 350px;
-  display: block;
-}
-
-.msg > * {
   padding: 10px;
   margin: 15px;
+  display: block;
 }
 
 .author {
